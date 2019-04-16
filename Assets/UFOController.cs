@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class UFOController : MonoBehaviour {
 
-	//Add Variables here
-
+    //Add Variables here
+    public Rigidbody2D theRB2d;
 
 
 	// Use this for initialization
