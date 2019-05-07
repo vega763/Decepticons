@@ -59,7 +59,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 14.46
+  orthographic size: 14
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -195,7 +195,7 @@ SpriteRenderer:
   m_SortingLayerID: 1996638351
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: c4b2e2c9f19dd1e43b1f413c0c8b3076, type: 3}
+  m_Sprite: {fileID: 21300008, guid: f6ef318e2b2eb42b3b483dcea53d4211, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -269,5 +269,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9b4042c7f3cd407488d432c30ba4328, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet: {fileID: 875122696176217800, guid: a2a47f209def14400b248c4a179b6b34, type: 3}
-  barrel: {fileID: 1410780095898029069}
