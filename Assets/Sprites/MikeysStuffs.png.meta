@@ -8,6 +8,7 @@ TextureImporter:
     21300006: MikeysStuffs_3
     21300008: MikeysStuffs_4
     21300010: MikeysStuffs_5
+    21300012: MikeysStuffs_6
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -205,6 +206,26 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 1d8de98e1f68a4c2194c35a3c5d48660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MikeysStuffs_6
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 52
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe0a29c33fb24924988fa5cde01c994
       vertices: []
       indices: 
       edges: []

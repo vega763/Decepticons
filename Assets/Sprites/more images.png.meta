@@ -3,6 +3,7 @@ guid: 1e0affa6d67a546bdb88de0424a79d60
 TextureImporter:
   fileIDToRecycleName:
     21300000: more images_0
+    21300002: more images_1
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -93,13 +94,33 @@ TextureImporter:
         width: 51
         height: 76
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: e806fce4e7bfc4c30891d0af6ca227c7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: more images_1
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 234
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b585844a3b5fc4eeda96352d2aa18f10
       vertices: []
       indices: 
       edges: []
