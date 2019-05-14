@@ -4,63 +4,55 @@ using UnityEngine;
 
 public class ShootWeapons : MonoBehaviour
 {
-    /*
+
     public GameObject barrel;
-    public LaserSightControll LzrSight;
+    public LaserSiteControl LzrSight;
     public float speed;
     public float angle;
 
     public UFOController myUFO;
     public GameObject projectile;
     // use this for initialization
-    void start() {
+    void Start() {
+
      myUFO = GetComponent<UFOController>();
 
     }
 
- 
-
-
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
     {
 
-        shootprojectile();
+        ShootProjectile();
     }
 
     public void ShootProjectile()
     {
         //Rotate Laser
-        Vector3 dir = Input.mousePosition -
-        Camera.main.WorldToScreenPoint(transform.position);
-        angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Dog;
-        barrel.transformation.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+        Vector3 dir = Input.mousePosition - Camera.main.WorldToScreenPoint(transform.position);
+        angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+        barrel.transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
 
         //Set laser endpoint
-        dir = Camera.main.ScreenToWorldPoint(Inmput.mouseposition);
+        dir = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         dir.z = 0f;
-        LzrSight.Setend(dir);
+        LzrSight.SetEnd(dir);
         //toggle laser 
         if (Input.GetMouseButtonDown(1) || Input.GetKeyDown (KeyCode.Z))
         {
 
-            LzrSight.togglelazer();
-}
+            LzrSight.ToggleLaser();
+        }
         //Shoot projectile
         if(Input.GetMouseButtonDown(0))
         {
-            dir = Imput.mousePosition -
-                Camera.main.WorldToScreenPoint(transform.position);
-            angle = Mathf.Atan2(dir.y, dir.x) * mthf.Rad2Deg;
+            dir = Input.mousePosition  - Camera.main.WorldToScreenPoint(transform.position);
+            angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
 
-            barrel.transformation.rotation = quaternion.angleaxis(angle, Vector3.forward);
-            Insatntiate(projectile, transform.position, barrel.trasform.rotation);
-}
+            barrel.transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+            Instantiate(projectile, transform.position, barrel.transform.rotation);
+        }
     }
-    */
+
 }
