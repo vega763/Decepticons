@@ -11,11 +11,17 @@ public class ShootWeapons : MonoBehaviour
     public float angle;
 
     public UFOController myUFO;
+    public LinkMovementControll myLink;
     public GameObject projectile;
     // use this for initialization
+    public bool isLink;
     void Start() {
 
-     myUFO = GetComponent<UFOController>();
+       
+            myUFO = GetComponent<UFOController>();
+        myLink = GetComponent<LinkMovementControll>();
+
+
 
     }
 

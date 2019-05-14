@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3330877013898131551}
   - component: {fileID: 3330877013898131550}
-  - component: {fileID: 3330877013898131549}
   - component: {fileID: 3330877013898131536}
   - component: {fileID: 7577313132212081077}
   - component: {fileID: 5075587815138717153}
@@ -86,20 +85,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &3330877013898131549
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3330877013898131548}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a488f3b787a348298fc1776e9e4caf6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  theRB2d: {fileID: 0}
-  movementSpeed: 10.3
 --- !u!50 &3330877013898131536
 Rigidbody2D:
   serializedVersion: 4
@@ -153,9 +138,11 @@ MonoBehaviour:
   LzrSight: {fileID: 3486241825055439668}
   speed: 0
   angle: 0
-  myUFO: {fileID: 3330877013898131549}
+  myUFO: {fileID: 0}
+  myLink: {fileID: 0}
   projectile: {fileID: 875122696176217800, guid: a2a47f209def14400b248c4a179b6b34,
     type: 3}
+  isLink: 0
 --- !u!114 &3903692299744779860
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -168,6 +155,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8311a0ad6c6ef443cb402b00f86f6c42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  theRB2d: {fileID: 0}
+  movementSpeed: 6
 --- !u!1 &5209865238679517215
 GameObject:
   m_ObjectHideFlags: 0
