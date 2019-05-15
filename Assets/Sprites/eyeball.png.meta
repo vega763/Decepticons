@@ -1,14 +1,11 @@
 fileFormatVersion: 2
-guid: f6ef318e2b2eb42b3b483dcea53d4211
+guid: 6b6e4b4fd23c2433fbecd463284b15e6
 TextureImporter:
   fileIDToRecycleName:
-    21300000: MikeysStuffs_0
-    21300002: MikeysStuffs_1
-    21300004: MikeysStuffs_2
-    21300006: MikeysStuffs_3
-    21300008: MikeysStuffs_4
-    21300010: MikeysStuffs_5
-    21300012: MikeysStuffs_6
+    21300000: eyeball_0
+    21300002: eyeball_1
+    21300004: eyeball_2
+    21300006: eyeball_3
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -52,7 +49,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 20
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -91,141 +88,81 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MikeysStuffs_0
+      name: eyeball_0
       rect:
         serializedVersion: 2
-        x: 60
-        y: 158
-        width: 32
-        height: 30
+        x: 0
+        y: 400
+        width: 400
+        height: 400
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f756f8d1861fb458caa969a428bea17a
+      spriteID: 06bbbda0130684386baf9437dc0aa9ce
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MikeysStuffs_1
+      name: eyeball_1
       rect:
         serializedVersion: 2
-        x: 100
-        y: 178
-        width: 21
-        height: 22
+        x: 400
+        y: 400
+        width: 400
+        height: 400
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4617fca03d4b94b08b80ab2d7f81c72f
+      spriteID: 36e24f78bfc38429daf3885cde950771
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MikeysStuffs_2
+      name: eyeball_2
       rect:
         serializedVersion: 2
-        x: 157
-        y: 151
-        width: 36
-        height: 45
+        x: 0
+        y: 0
+        width: 400
+        height: 400
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1fca5a7fddf3643acbed61718823d84d
+      spriteID: 837d8029450a0494db467c979ff33b14
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MikeysStuffs_3
+      name: eyeball_3
       rect:
         serializedVersion: 2
-        x: 165
-        y: 114
-        width: 27
-        height: 18
+        x: 400
+        y: 0
+        width: 400
+        height: 400
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd765cfcaa52047e086c131d49affe8a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MikeysStuffs_4
-      rect:
-        serializedVersion: 2
-        x: 54
-        y: 5
-        width: 33
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7d3a7249f25844abdb1b7cb1a236b2a6
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MikeysStuffs_5
-      rect:
-        serializedVersion: 2
-        x: 9
-        y: 103
-        width: 31
-        height: 42
-      alignment: 9
-      pivot: {x: 0.52042276, y: 0.39448148}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1d8de98e1f68a4c2194c35a3c5d48660
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MikeysStuffs_6
-      rect:
-        serializedVersion: 2
-        x: 155
-        y: 52
-        width: 33
-        height: 42
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2fe0a29c33fb24924988fa5cde01c994
+      spriteID: c722f471be2934fdab82fc87a9cd3fe2
       vertices: []
       indices: 
       edges: []
@@ -233,7 +170,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: a5d55d6b379e3487aab1626b8c7aaa85
+    spriteID: be7adb00b8398425b8fe6d3b4b1af759
     vertices: []
     indices: 
     edges: []
