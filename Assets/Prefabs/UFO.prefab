@@ -248,6 +248,7 @@ GameObject:
   - component: {fileID: 5121051112425645090}
   - component: {fileID: 506580423}
   - component: {fileID: 3411505426518405523}
+  - component: {fileID: 6221615141080601321}
   m_Layer: 0
   m_Name: UFO
   m_TagString: Player
@@ -391,3 +392,24 @@ MonoBehaviour:
   projectile: {fileID: 875122696176217800, guid: a2a47f209def14400b248c4a179b6b34,
     type: 3}
   isLink: 0
+--- !u!114 &6221615141080601321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5121051112425645102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b906221bf89a45dca573d3d0c0bc54f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  barrel: {fileID: 2406381190609331309}
+  speed: 0
+  angle: 0
+  myUFO: {fileID: 0}
+  portalOrb_A: {fileID: 875122696176217800, guid: e96ef3889d9bf417eb82419a6e5a194d,
+    type: 3}
+  portalOrb_B: {fileID: 875122696176217800, guid: 6965d3d8ad65c4c04aa23344b1e0edb4,
+    type: 3}
+  portalCount: 0
