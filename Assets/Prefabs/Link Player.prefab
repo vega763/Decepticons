@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 7577313132212081077}
   - component: {fileID: 5075587815138717153}
   - component: {fileID: 3903692299744779860}
+  - component: {fileID: 919632285762436114}
   m_Layer: 0
   m_Name: Link Player
   m_TagString: Player
@@ -157,6 +158,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   theRB2d: {fileID: 0}
   movementSpeed: 6
+--- !u!114 &919632285762436114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3330877013898131548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b906221bf89a45dca573d3d0c0bc54f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  barrel: {fileID: 5209865238679517215}
+  speed: 0
+  angle: 0
+  myUFO: {fileID: 0}
+  portalOrb_A: {fileID: 875122696176217800, guid: e96ef3889d9bf417eb82419a6e5a194d,
+    type: 3}
+  portalOrb_B: {fileID: 875122696176217800, guid: 6965d3d8ad65c4c04aa23344b1e0edb4,
+    type: 3}
+  portalCount: 0
 --- !u!1 &5209865238679517215
 GameObject:
   m_ObjectHideFlags: 0
