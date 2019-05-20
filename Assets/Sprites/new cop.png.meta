@@ -3,6 +3,10 @@ guid: ef57a8fdaf99a4ad0ba988ae41e385ec
 TextureImporter:
   fileIDToRecycleName:
     21300000: new cop_0
+    21300002: new cop_1
+    21300004: new cop_2
+    21300006: new cop_3
+    21300008: new cop_4
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -100,6 +104,86 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 0eeda137f28c34f5691df4ffc211cbc9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new cop_1
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 145
+        width: 63
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 546d979ffe48345c99fd75c7e0c09aaf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new cop_2
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 232
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8bbb3323089494d923670c74157a46
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new cop_3
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 340
+        width: 62
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17332661b3ca34ee2815383ca670af60
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new cop_4
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 340
+        width: 61
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb92893e6a7864c9588ff4ac7ebdc9ab
       vertices: []
       indices: 
       edges: []
