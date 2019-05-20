@@ -133,9 +133,10 @@ GameObject:
   - component: {fileID: 3517525092826462654}
   - component: {fileID: 1825856187681505842}
   - component: {fileID: 251241291971837368}
+  - component: {fileID: 2364589801082961224}
   m_Layer: 0
   m_Name: Image
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -260,6 +261,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.55, y: 3.8}
   m_EdgeRadius: 0
+--- !u!114 &2364589801082961224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3517525092826462652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ce8a75fe66bb4d2d857826f6e4fe85b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3517525092864693893
 GameObject:
   m_ObjectHideFlags: 0
@@ -269,8 +282,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3517525092864693892}
-  - component: {fileID: 3990136641122705117}
-  - component: {fileID: 5488551584893551212}
   m_Layer: 0
   m_Name: Enemy 1
   m_TagString: Untagged
@@ -294,31 +305,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3990136641122705117
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3517525092864693893}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ce8a75fe66bb4d2d857826f6e4fe85b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &5488551584893551212
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3517525092864693893}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47cf2c5efe6b54523a0a0122259c08ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 5
 --- !u!1 &3517525093043059707
 GameObject:
   m_ObjectHideFlags: 0
