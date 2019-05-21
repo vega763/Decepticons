@@ -65443,7 +65443,7 @@ PrefabInstance:
         type: 3}
       propertyPath: projectile
       value: 
-      objectReference: {fileID: 875122696176217800, guid: 96a7c0b3025604c36ad41afe4407ff41,
+      objectReference: {fileID: 875122696176217800, guid: a2474d9dff09c483ca638f0e799defef,
         type: 3}
     - target: {fileID: 9160594390457474191, guid: 1b09644943fc4455a82e5d30254b0b8f,
         type: 3}

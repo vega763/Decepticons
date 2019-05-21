@@ -66,7 +66,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   theRB2d: {fileID: 0}
-  movementSpeed: 6
+  movementSpeed: 15
 --- !u!50 &1874862564911427309
 Rigidbody2D:
   serializedVersion: 4
@@ -141,6 +141,7 @@ MonoBehaviour:
   speed: 0
   angle: 0
   myUFO: {fileID: 0}
+  myLink: {fileID: 0}
   portalOrb_A: {fileID: 875122696176217800, guid: e96ef3889d9bf417eb82419a6e5a194d,
     type: 3}
   portalOrb_B: {fileID: 875122696176217800, guid: 6965d3d8ad65c4c04aa23344b1e0edb4,
