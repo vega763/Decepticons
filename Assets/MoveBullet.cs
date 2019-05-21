@@ -33,6 +33,14 @@ public class MoveBullet : MonoBehaviour
             other.GetComponent<EnemyHealthController>().TakeDamage(bulletDamage);
             Destroy(gameObject);
         }
+        else if (other.tag == "PlayerBullet")
+        {
+            //Destroy(gameObject);
+        }
+        else if (other.tag == "Gem")
+        {
+            //Destroy(gameObject);
+        }
         else if(other.tag != "Player")
         {
             Destroy(gameObject);
