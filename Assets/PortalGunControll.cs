@@ -10,6 +10,7 @@ public class PortalGunControll : MonoBehaviour
     public float angle;
 
     public UFOController myUFO;
+    public LinkMovementControll myLink;
     public GameObject portalOrb_A;
     public GameObject portalOrb_B;
 
@@ -19,6 +20,7 @@ public class PortalGunControll : MonoBehaviour
     void Start()
     {
         myUFO = GetComponent<UFOController>();
+        myLink = GetComponent<LinkMovementControll>();
     }
 
     // Update is called once per frame
