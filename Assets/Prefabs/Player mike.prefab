@@ -66,7 +66,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   theRB2d: {fileID: 0}
-  movementSpeed: 15
+  movementSpeed: 20
 --- !u!50 &1874862564911427309
 Rigidbody2D:
   serializedVersion: 4
